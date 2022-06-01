@@ -29,18 +29,16 @@
             "usuario":0
     }
 //////////////////////////////////////////////////////
-    response body
+(2.1) /PUT       /filme/:id/imagem
+
+    request body (form)
     {
-            "id":1,
-            "nome":"",
-            "sinopse":"",
-            "avaliacao":0.0,
-            "lancamento":"2020-12-01"
-            "disponivel": true,
-            "imagem":"",
-            "usuario":0
+        "imagem": ""
     }
+    response(204)
+    --sem conteudo--
 //////////////////////////////////////////////////////
+
 (3) /PUT        /filme/:id
 
     request body

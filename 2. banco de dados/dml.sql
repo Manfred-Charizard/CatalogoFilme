@@ -15,13 +15,12 @@ select id_usuario 		id,
 
 
 INSERT INTO tb_filme (id_usuario, nm_filme, ds_sinopse, vl_avaliacao, dt_lancamento, bt_disponivel)
-     VALUES (1, 'Harry Potter e a Camara Secreta', 'Filme bem tops', 8.2, '2012-02-11', true);
+     VALUES (1,'Carros 3', 'Filmes fodas', 10, '2019-02-09', true);
 
 
 UPDATE tb_filme 
    SET img_filme     = '/storage/filme/asdfasdf.jp'
  WHERE id_filme = 1;
-
 
 UPDATE tb_filme 
    SET nm_filme      = 'Carros 3',
